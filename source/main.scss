@@ -1,0 +1,75 @@
+@import "node_modules/normalize.css/normalize";
+
+:root {
+}
+
+body {
+  font-family: 'Bebas Neue', cursive;
+  background: #17171b;
+  font-weight: 400;
+}
+
+.text {
+  font-size: 400px;
+  line-height: .7;
+  mix-blend-mode: normal;
+  //background: -webkit-linear-gradient(45deg, #09009f, #00ff95 80%);
+  background: -webkit-linear-gradient(45deg, #f93871, #17171b 93%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0;
+}
+
+.page-1 {
+  .text {
+    //color: #ffb800;
+    //transform: rotate(-90deg);
+  }
+}
+
+.page-2 {
+  .text {
+  }
+}
+
+.page-3 {
+  .text {
+    background: linear-gradient(180deg, #a1080e -2.33%, #e44008 39.57%, #2295ae 100.72%);
+  }
+}
+
+.page-4 {
+  .text {
+    color: #04ffc9;
+  }
+}
+
+.page-5 {
+  .text {
+    color: #fff;
+  }
+}
+
+.page-6 {
+  .text {
+    background: linear-gradient(292.74deg, #17171b 27.88%, rgba(45, 46, 72, 0) 64.76%), linear-gradient(0deg, #17171b 5.72%, #06fbc7 67.59%, #2d2e48 137.71%);
+  }
+}
+
+.page-7 {
+  .text {
+    font-size: 600px;
+    background: linear-gradient(180deg, #f93871 -37.48%, #dc3335 -7.77%, #ff10e3 22.63%, #41819a 51.64%, #17171b 93.79%);
+  }
+}
+
+.page-7 {
+  .text {
+    font-size: 700px;
+    line-height: .4;
+    color: transparent;
+    text-stroke: 4px white;
+    text-shadow: none;
+  }
+}
